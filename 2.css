@@ -1,0 +1,62 @@
+/* Navigation Bar */
+nav {
+    background-color: #0a0c7c;
+    padding: 10px 0;
+  }
+  
+  .nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 20px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s ease;
+  }
+  
+  nav ul li:nth-child(1) {
+    border-bottom-style: dotted;
+  }
+  
+  nav ul li:nth-child(2) {
+    border-bottom-style: dashed;
+  }
+  
+  nav ul li:nth-child(3) {
+    border-bottom-style: double;
+  }
+  
+  nav ul li:nth-child(4) {
+    border-bottom-style: groove;
+  }
+  
+  nav ul li:nth-child(5) {
+    border-bottom-style: ridge;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #ccc;
+  }
+  
+  nav ul li:hover {
+    border-bottom-color: #ccc;
+  }
+  
